@@ -48,7 +48,7 @@ Auto is short for auto vertial and horizontial
 
 Measurement Units
 
-![Untitled](Untitled.png)
+![Untitled](CSS/Untitled.png)
 
 - % 是父级元素大小的百分比
     - 注意：body 元素的默认为横向100%， 纵向0px. 只有再有内容的时候， 纵向大小才会拉伸。
@@ -77,12 +77,12 @@ Measurement Units
     
     # Flexbox
     
-    ![Untitled](Untitled1.png)
+    ![Untitled](CSS/Untitled1.png)
     
 
 Axises
 
-![Untitled](Untitled2.png)
+![Untitled](CSS/Untitled2.png)
 
 ![Untitled](CSS/Untitled3.png)
 
@@ -101,11 +101,11 @@ Axises
     
     # Grid
     
-    ![Untitled](Untitled5.png)
+    ![Untitled](CSS/Untitled5.png)
     
-    ![Untitled](Untitled6.png)
+    ![Untitled](CSS/Untitled6.png)
     
-    ![Untitled](Untitled7.png)
+    ![Untitled](CSS/Untitled7.png)
     
     unit “fr” the percentage of the free space
     
