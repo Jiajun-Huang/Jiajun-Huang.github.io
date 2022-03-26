@@ -1,0 +1,888 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Water rocket kinetics analysis | Jiajun's Blog</title><meta name="keywords" content="Physis"><meta name="author" content="Jiajun"><meta name="copyright" content="Jiajun"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="jkl100 Extended Essay May 2021 Physics Extended Essay Research question: “How does the air pressure and air to water ratio affect the motion of the water rocket? IB code: jkl100 Words count: 3262 Tabl">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Water rocket kinetics analysis">
+<meta property="og:url" content="http://example.com/2022/03/25/water-rocket/index.html">
+<meta property="og:site_name" content="Jiajun&#39;s Blog">
+<meta property="og:description" content="jkl100 Extended Essay May 2021 Physics Extended Essay Research question: “How does the air pressure and air to water ratio affect the motion of the water rocket? IB code: jkl100 Words count: 3262 Tabl">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg">
+<meta property="article:published_time" content="2022-03-25T20:03:45.000Z">
+<meta property="article:modified_time" content="2022-03-25T20:06:06.693Z">
+<meta property="article:author" content="Jiajun">
+<meta property="article:tag" content="Physis">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2022/03/25/water-rocket/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: {"limitDay":500,"position":"top","messagePrev":"It has been","messageNext":"days since the last update, the content of the article may be outdated."},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: 'days',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Water rocket kinetics analysis',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-03-25 13:06:06'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/static-butterfly/dist/css/index.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css"  media="defer" onload="this.media='all'"><link rel="stylesheet" href="APlayer.min.css"><div id="aplayer"></div><script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js" async></script><!-- hexo injector head_end start --><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.css" media="print" onload="this.media='all'"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.1.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">4</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> Entertain</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/artitalk/"><i class="fa-fw fa fa-comments-o"></i><span> talk</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Jiajun's Blog</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> Entertain</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/artitalk/"><i class="fa-fw fa fa-comments-o"></i><span> talk</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Water rocket kinetics analysis</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2022-03-25T20:03:45.000Z" title="Created 2022-03-25 13:03:45">2022-03-25</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2022-03-25T20:06:06.693Z" title="Updated 2022-03-25 13:06:06">2022-03-25</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">Word count:</span><span class="word-count">5k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">Reading time:</span><span>30min</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Water rocket kinetics analysis"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>jkl100</p>
+<p>Extended Essay May 2021</p>
+<p>Physics Extended Essay</p>
+<p><strong>Research question:</strong></p>
+<p><strong>“How does the air pressure and air to water ratio affect the motion of the water rocket?</strong></p>
+<p>IB code: jkl100</p>
+<p>Words count: 3262</p>
+<p>Tables: 7</p>
+<p>Figures: 17</p>
+<p>Equations: 13</p>
+<h1 id="Contents"><a href="#Contents" class="headerlink" title="Contents"></a>Contents</h1><p><a href="#_Toc66193064"><strong>1.</strong>    <strong>Introduction</strong>    1</a></p>
+<p><a href="#_Toc66193065"><strong>2.</strong>    <strong>The mathematical analysis and theoretical modeling of the water rocket</strong>    1</a></p>
+<p><a href="#_Toc66193066">2.1.    The velocity of ejected water    1</a></p>
+<p><a href="#_Toc66193067">2.2.    The motion parameter of water rocket during exhaust phase    3</a></p>
+<p><a href="#_Toc66193068">2.3.    The motion parameter of water rocket during exhaust phase    4</a></p>
+<p><a href="#_Toc66193069">2.4.    Simulations    6</a></p>
+<p><a href="#_Toc66193070">2.4.1.    Relationship between initial pressure and maximum altitude and duration    8</a></p>
+<p><a href="#_Toc66193071">2.5.    relationship between initial air to water ratio and maximum altitude and flying duration    11</a></p>
+<p><a href="#_Toc66193072"><strong>3.</strong>    <strong>The experimental analysis</strong>    14</a></p>
+<p><a href="#_Toc66193073">3.1.    Materials    14</a></p>
+<p><a href="#_Toc66193074">3.2.    Fabrication of the water rocket    14</a></p>
+<p><a href="#_Toc66193075">3.3.    The method of obtaining parameters collecting data    14</a></p>
+<p><a href="#_Toc66193076">3.4.    The effect of air pressure on water rocket projection    19</a></p>
+<p><a href="#_Toc66193077">3.4.1.    The data of altitude and distance\    19</a></p>
+<p><a href="#_Toc66193078">3.4.2.    Analysis of the data    20</a></p>
+<p><a href="#_Toc66193079">3.5.    The effect of water to air ratio on water rocket projection    21</a></p>
+<p><a href="#_Toc66193080">3.5.1.    The data of maximum and flying duration    21</a></p>
+<p><a href="#_Toc66193081">3.5.2.    Analysis of the data    21</a></p>
+<p><a href="#_Toc66193082"><strong>4.</strong>    <strong>Conclusion and Evaluation</strong>    22</a></p>
+<p><a href="#_Toc66193083">4.1.    Conclusion    22</a></p>
+<p><a href="#_Toc66193084">4.2.    Evaluation    23</a></p>
+<p><a href="#_Toc66193085">4.2.1.    Systematic errors    23</a></p>
+<p><a href="#_Toc66193086">4.2.2.    Improvements    24</a></p>
+<p><a href="#_Toc66193087">5.    References    25</a></p>
+<p>2</p>
+<ol>
+<li><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a><strong>Introduction</strong></h2><p>During an aerospace workshop that I participated in last summer, I have comprehensively introduced rocket operation’s theoretical fundamental principles. The engineering part of the rocket had truly intrigued me. However, the workshop only discussed the rocket in theory. I did not get to put my hands on building a rocket model. Fortunately, this investigation provides me with a perfect opportunity to construct a real water rocket that mimics the operation of an actual rocket. The water rocket’s motion is affected by many factors such as the pumped air pressure, shape of the rocket, water to air ratio, mass of the water rocket, and density of the liquid. Among these factors, the pumped air pressure and air to water ratio are of great interest as they are the main factors that vary the motion of the water rocket. In this essay, I will be investigating how these initial conditions factors affect the maximum altitude and flying duration reached by the water rocket. </p>
+</li>
+<li><h2 id="The-mathematical-analysis-and-theoretical-modeling-of-the-water-rocket"><a href="#The-mathematical-analysis-and-theoretical-modeling-of-the-water-rocket" class="headerlink" title="The mathematical analysis and theoretical modeling of the water rocket"></a><strong>The mathematical analysis and theoretical modeling of the water rocket</strong></h2><ol>
+<li><h2 id="The-velocity-of-ejected-water"><a href="#The-velocity-of-ejected-water" class="headerlink" title="The velocity of ejected water"></a>The velocity of ejected water</h2><img src="/2022/03/25/water-rocket/Aspose.Words.1cab525a-54af-4a3c-9dbb-1087a506cd7f.001.png"></li>
+</ol>
+</li>
+</ol>
+<p>(Figure 1: The schematic of a water rocket)</p>
+<ol>
+<li><code> </code>nose cone, ② air ③water ④bottle ⑤nozzle ⑥fins</li>
+</ol>
+<p>The structure of a water rocket is shown in Figure 1. It is composed of a bottle containing water, pumped air, a nozzle, a nose cone for reducing the air resistance, and two fins for stabilizing the water rocket’s body. When launching the water rocket, the water rocket is first placed on a launcher with a clip that attaches to the water rocket’s nozzle. Then, an air pumper is used to pump the air into the bottle through a one-way valve on the launch pad to the nozzle. Once the air pressure reaches a specific value, the trigger on the launch pad is pressed. The clip that locks the water rocket will be released, so the compressed air rapidly expands and therefore applies a potent force on the water. This force causes the water in the rocket to eject out of the nozzle. By Newton’s third law of motion, there is an equal but opposite force presents, and it is upward thrusting force. The result of this reaction force will be the upward acceleration of the water rocket. </p>
+<p>As the air in the water rocket expands, the pressure on the water decreases, the acceleration of the ejected water decreases. Therefore, the velocity of water ejected out is reduced, which leads to a decrease in the normal force caused by the ejected water. However, as the water is ejecting out for gaining an upward force, the total mass of the rocket body decreases along the way, which means the acceleration gain by ejecting water must increase according to Newton’s second law. </p>
+<p>Once the water rocket is launched, it will be running out of all the fuels to gain the velocity as much as possible, as the high compress air pumped into the water rocket is expanding. But there is one possible occasion in which the water rocket flies with some leftover water inside due to relatively low initial air pressure or exceeds the initial amount of water inside. When the water rocket’s internal air pressure reaches the atmospheric pressure before all the water is ejected out, there will be no pressure difference to push the water out of the rocket. The exceed initial amount of water makes the water rocket overweighted. Hence, the water rocket becomes too heavy to be pushed away by the ejecting water, and it touches the ground before the fuel running out.</p>
+<p>During the time of flying of the water rocket, there are only three types of forces on the water rocket. These are the reaction force from water ejection, gravitational force, and air friction. The reaction force only takes place in a very short time because water ejects at a rapid rate. The gravitational force and air friction act on the water rocket for the entire process. The gravitational force is always pushing the water rocket downward, while the air friction is proportional to the velocity of the water rocket (opposite to the direction of the velocity).</p>
+<p><img src="/2022/03/25/water-rocket/Aspose.Words.1cab525a-54af-4a3c-9dbb-1087a506cd7f.002.jpeg"></p>
+<p>(Figure 2: Free body diagram of the water rocket when a rocket is in motion)</p>
+<p>The process of water rocket flying can be divided into two stages – the water exhausting stage and the inertial motion stage. On the water exhausting stage, the water is ejected at a relatively high speed in a short time, and the water rocket is pushed in a opposite direction and gaining the velocity needed to stay in the air. After the water exhausting stage then comes the inertial motion stage. Only gravitational force and air friction are acting on the water rocket until the water rocket touches the ground.</p>
+<ol>
+<li><h2 id="The-motion-parameter-of-water-rocket-during-exhaust-phase"><a href="#The-motion-parameter-of-water-rocket-during-exhaust-phase" class="headerlink" title="The motion parameter of water rocket during exhaust phase"></a>The motion parameter of water rocket during exhaust phase</h2>The water inside the water rocket is pushed out by high pressure during the water exhaust stage. The water flow is formed in the rocket from the bottle to the nozzle and be ejected out. Assuming the water flow inside of the rocket is ideal fluid (Incompressible, zero viscosity, and flows steadily along a streamline) so it satisfies the conditions for using Bernoulli’s Equation</li>
+</ol>
+<p>P1+12ρv12+ρgh-dl&#x3D;P2+12ρv22+ρgh.</p>
+<p>Taking one point at the surface of the water, another point at the bottom of the nozzle, we obtain</p>
+<p>P+12ρvin2+ρgh&#x3D;Pa+12ρvex2,#1</p>
+<p>where P0 is the initial air pressure (pumped air pressure), ρw is the density of the water, vin and vex  are the water flow velocity in the rocket body and at the nozzle, respectively. Because the water rocket is launched vertically to the ground, so h is the distance between the water’s surface to the bottom of the nozzle, and g is the gravitational acceleration. </p>
+<p>The water ejecting rates in the rocket body and at the nozzle can be obtained by multiplying vw and vex with their corresponding cross-sectional area, which is equivalent to the increase rate of volume of air which is given by the equation of continuity as the following</p>
+<p>dVdt&#x3D;Svin&#x3D;Sexvex.#2</p>
+<p>where Sex is the cross-sectional area of nozzle, and S is the average cross-sectional area of the water rocket, which can be calculated as S&#x3D;VbL (Vb is the volume of the bottle, and L is the total length of the bottle). The reason for doing this is because in a real-life experiment, measuring the volume usually brings much error. Representing the volume in terms of the cross-sectional area can eliminate the source of error to some extent.</p>
+<p>In equation (2), solve for vw in terms of ve , and substitute into equation (1), we can get an expression for vex</p>
+<p>vex&#x3D;2P-Paρ1-SexS2.#3</p>
+<p>The water exhausting stage only takes a very short time (usually less than 1 second) which means the gas in the bottle has no time to exchange heat with the outside during the expansion process, which can be reasonably approximated as adiabatic expansion. As the water is ejected out from the rocket, the volume of air expends. Assuming the pumped air is ideal gas (negligible particle volume and intermolecular attraction and the expansion is adiabatic), we have</p>
+<p>P0V0k&#x3D;PVk,#4</p>
+<p>where V0 is the initial volume of air, P is the air pressure, V is the volume of air and k is the thermodynamic constant for gas, usually 1.4. </p>
+<p>Note that V0 and V can also be represented as V0&#x3D;SL-h0 and V&#x3D;SL-h, where h0 represents the initial water level, and h0-h represent the height of water.</p>
+<p>Solve for P0 in equation (4), and substitute to the equation (3), we get </p>
+<p>vexh&#x3D;2P0SL-h0SL-hk-Pa+2ρghρ1-SexS2 .#5</p>
+<p>Note here the interval of h is 0,h0.</p>
+<ol>
+<li><h2 id="The-motion-parameter-of-water-rocket-during-exhaust-phase-1"><a href="#The-motion-parameter-of-water-rocket-during-exhaust-phase-1" class="headerlink" title="The motion parameter of water rocket during exhaust phase"></a>The motion parameter of water rocket during exhaust phase</h2>According to Newton’s third law, the upward force that acts on the rocket is equal to the force that ejects water out of the rocket. The force acting on the ejected water can be represented by mass flow dmdt times the velocity of the mass of water ejected out from the rocket, which is vex,<br><code>                                                                     </code>Ft&#x3D;vexdmdt                                                          (6)</li>
+</ol>
+<p>where dmdt also means the volume flow rate times the density of the water ρ, and the volume flow rate is represented by vexSex. So, the equation becomes</p>
+<p><code>                                                 </code>Ft&#x3D;vexdmdt&#x3D;vex2Sexρ                                                          (7)</p>
+<p>solve for dm</p>
+<p>dm(h)&#x3D;vex(h)Sexρdt#8</p>
+<p>From equation (2), solve for dt </p>
+<p>dth&#x3D;SSexvexhdh#9</p>
+<p>As the rocketed is launched (as the diagram is shown below),</p>
+<p><img src="/2022/03/25/water-rocket/Aspose.Words.1cab525a-54af-4a3c-9dbb-1087a506cd7f.003.jpeg">            <img src="/2022/03/25/water-rocket/Aspose.Words.1cab525a-54af-4a3c-9dbb-1087a506cd7f.004.jpeg"> </p>
+<p>(Figure 3: The water rocket before and after dm is ejected)</p>
+<p>the velocity is v with the mass of M. After dt second, the rocket gains velocity of v, and ejects a mass of water dm. Along the process, the external forces are gravity (Mg) and air resistance (12CAρavv). </p>
+<p>According to the momentum theory </p>
+<p>M-dmv+dv+dmv-vex-MV&#x3D;dtMg+12CAρavv,</p>
+<p>solve for dv </p>
+<p>dv&#x3D;-Mg-12CρaAvv+ρSexvexMdt, #(10)</p>
+<p>substitute dt from equation (9), we obtain:</p>
+<p>dvh&#x3D;S-Mg-12CρaAvhvh+ρSexvexhMSexdh. #(11)# </p>
+<p>Integrate both sides, and we have a function of velocity v with respect of h:</p>
+<p><code>                   </code>vh&#x3D;hohS-Mg-12CρaAvhvh+ρSvexhMSexvexhdh               (12)</p>
+<p>The change in displacement can be represented by: </p>
+<p>dD&#x3D;vdt #13</p>
+<ol>
+<li><h2 id="Simulations"><a href="#Simulations" class="headerlink" title="Simulations"></a>Simulations</h2>Through the equations derived above, all parameters of the water rocket, such as displacement, velocity, acceleration, can be obtained with respect to time.</li>
+</ol>
+<p>Due to the functional relationship of those parameters, the motion of the water rocket will be simulated by numerical iteration from the initial conditions.</p>
+<p>For the simulation, the initial value for t, v, D are set at 0. The required initial parameters are listed in Table 1. The simulation can be divided into two parts: before the water exhaust phase and after the water exhaust phase. For the water exhaust phase, the decrease in water level can be modelled by taking a small decrement of water level dh every time so that the water level h become (h0-ndh): n represents the number of iterations. Inserting the value to the function vexh from equation 5, we can get a value vex. Using the value of vex, we can get the value of dt, dv,dD from equation (9), (11) and (13) above. Repeat this process until the water level is equal to 0.</p>
+<p>After the water exhaust phase, using a small increment of time dt to get dv* and dD from the equations (10) and (13), and add to the D, v, t that we get from the previous iteration. Repeat this process until the D&#x3D;0 (i.e. the water rocket touches the ground).</p>
+<p><img src="/2022/03/25/water-rocket/Aspose.Words.1cab525a-54af-4a3c-9dbb-1087a506cd7f.005.png"></p>
+<p>(Figure 4: the flow chart of the program that calculates the motion of the water rocket)</p>
+<ol>
+<li><h2 id="Relationship-between-initial-pressure-and-maximum-altitude-and-duration"><a href="#Relationship-between-initial-pressure-and-maximum-altitude-and-duration" class="headerlink" title=" Relationship between initial pressure and maximum altitude and duration"></a><code> </code>Relationship between initial pressure and maximum altitude and duration</h2>Through the equations derived in 3.2, the data of the motion of the water rocket can be calculated based on the constants listed in the table below.</li>
+</ol>
+<p>Table 1: The initial parameters of water rocket for the simulation</p>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Parameters</strong></th>
+<th align="center"><strong>Figure</strong></th>
+<th align="center"><strong>Unit</strong></th>
+<th align="center"><strong>Assumption</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Atmospheric pressure (Pa)</td>
+<td align="center">101325</td>
+<td align="center">pa</td>
+<td align="center">Constant temperature and a negligible difference in atmospheric pressure as rocket ascend higher.</td>
+</tr>
+<tr>
+<td align="center">Mass of the water rocket with water (M)</td>
+<td align="center">0.4</td>
+<td align="center">kg</td>
+<td align="center">Constant water density</td>
+</tr>
+<tr>
+<td align="center">Initial height of water level (ho)</td>
+<td align="center">0.083</td>
+<td align="center">m</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">Total length of water rocket (L)</td>
+<td align="center">0.25</td>
+<td align="center">m</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">Average cross-section area of water rocket (S)</td>
+<td align="center">0.00456</td>
+<td align="center">m2</td>
+<td align="center">The rocket is a perfect cylinder.</td>
+</tr>
+<tr>
+<td align="center">Area of nozzle (Sex)</td>
+<td align="center">3.73×10-5</td>
+<td align="center">m2</td>
+<td align="center">The nozzle is a perfect cylinder.</td>
+</tr>
+<tr>
+<td align="center">Density of water (ρ)</td>
+<td align="center">997</td>
+<td align="center">kgm-3</td>
+<td align="center">Constant temperature</td>
+</tr>
+<tr>
+<td align="center">Density of air (ρ)</td>
+<td align="center">1.2</td>
+<td align="center">kgm-3</td>
+<td align="center">Constant temperature</td>
+</tr>
+<tr>
+<td align="center">Air resistance coefficient (C)</td>
+<td align="center">0.3</td>
+<td align="center">-</td>
+<td align="center">Constant temperature and humidity</td>
+</tr>
+<tr>
+<td align="center">Gravitational acceleration (g)</td>
+<td align="center">9.8</td>
+<td align="center">ms-2</td>
+<td align="center">Experiments are conducted at the same location.</td>
+</tr>
+<tr>
+<td align="center">Thermodynamic constant (k)</td>
+<td align="center">1.4</td>
+<td align="center">-</td>
+<td align="center">k is constant for gas.</td>
+</tr>
+</tbody></table>
+<p><img src="/2022/03/25/water-rocket/Aspose.Words.1cab525a-54af-4a3c-9dbb-1087a506cd7f.006.png"></p>
+<p>(Figure 5: Graph of height reached by the water rocket against flying time at different pressure)</p>
+<p><img src="/2022/03/25/water-rocket/Aspose.Words.1cab525a-54af-4a3c-9dbb-1087a506cd7f.007.png"></p>
+<p>(Figure 6: Graph of maximum altitude against the internal pressure of the water rocket)</p>
+<p><img src="/2022/03/25/water-rocket/Aspose.Words.1cab525a-54af-4a3c-9dbb-1087a506cd7f.007.png"></p>
+<p>(Figure 7: Graph of maximum altitude against the internal pressure of the water rocket)</p>
+<p>Through the graphs shown in Figure 6 and 7 above, both the maximum flying altitude and the duration increase as the pressure increases and the rate of ascending decreases as the pressure increases. It is worth noting that from 160 kPa to 200 kPa, the rate of ascending is increasing. It is mainly due to insufficient pressure, causing some water leftover in the rocket when it landed.</p>
+<ol>
+<li><h2 id="relationship-between-initial-air-to-water-ratio-and-maximum-altitude-and-flying-duration"><a href="#relationship-between-initial-air-to-water-ratio-and-maximum-altitude-and-flying-duration" class="headerlink" title="relationship between initial air to water ratio and maximum altitude and flying duration"></a>relationship between initial air to water ratio and maximum altitude and flying duration</h2>In this simulation, we will try the following initial water-air ratios: 1:12, 2:12, 3:12, 4:12, 5:12, 6:12, 7:12, 8:12. 9:12, 10:12 and 11:12. Assume the mass of the water rocket without the water is m0&#x3D;0.02, the initial mass of water rocket M can be calculated by M&#x3D;m0+hsρw. With the initial conduction below:</li>
+</ol>
+<p>Table 2: The initial parameter of water rocket for the simulation</p>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Parameters</strong></th>
+<th align="center"><strong>Figure</strong></th>
+<th align="center"><strong>Unit</strong></th>
+<th align="center"><strong>Assumption</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Atmospheric pressure (Pa)</td>
+<td align="center">101325</td>
+<td align="center">pa</td>
+<td align="center">Constant temperature and a negligible difference in atmospheric pressure as the  rocket ascends er.</td>
+</tr>
+<tr>
+<td align="center">Mass of the water rocket with water (M)</td>
+<td align="center">0.4</td>
+<td align="center">kg</td>
+<td align="center">Constant water density</td>
+</tr>
+<tr>
+<td align="center">Initial height of water level (ho)</td>
+<td align="center">0.083</td>
+<td align="center">m</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">Total length of water rocket (L)</td>
+<td align="center">0.25</td>
+<td align="center">m</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">Average cross-section area of water rocket (S)</td>
+<td align="center">0.00456</td>
+<td align="center">m2</td>
+<td align="center">The rocket is a perfect cylinder.</td>
+</tr>
+<tr>
+<td align="center">Area of nozzle (Sex)</td>
+<td align="center">3.73×10-5</td>
+<td align="center">m2</td>
+<td align="center">The nozzle is a perfect cylinder.</td>
+</tr>
+<tr>
+<td align="center">Density of water (ρ)</td>
+<td align="center">997</td>
+<td align="center">kgm-3</td>
+<td align="center">Constant temperature</td>
+</tr>
+<tr>
+<td align="center">Density of air (ρ)</td>
+<td align="center">1.2</td>
+<td align="center">kgm-3</td>
+<td align="center">Constant temperature</td>
+</tr>
+<tr>
+<td align="center">Air resistance coefficient (C)</td>
+<td align="center">0.3</td>
+<td align="center">-</td>
+<td align="center">Constant temperature and humidity</td>
+</tr>
+<tr>
+<td align="center">Gravitational acceleration (g)</td>
+<td align="center">9.8</td>
+<td align="center">ms-2</td>
+<td align="center">Experiments are conducted at the same location.</td>
+</tr>
+<tr>
+<td align="center">Thermodynamic constant (k)</td>
+<td align="center">1.4</td>
+<td align="center">-</td>
+<td align="center">k is constant for gas.</td>
+</tr>
+<tr>
+<td align="center">Internal air pressure (P0)</td>
+<td align="center">500000</td>
+<td align="center">Pa</td>
+<td align="center">The rocket is perfectly sealed and there is no leakage of air.</td>
+</tr>
+</tbody></table>
+<p>Table 3: Initial mass and water level of water rocket and the maximum height and flying duration</p>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Water to air ratio</strong></th>
+<th align="center"><strong>Initial mass</strong> M <strong>(kg)</strong></th>
+<th align="center"><strong>The initial height of water level</strong> h0 <strong>(m)</strong></th>
+<th align="center"><strong>Maximum altitude (m)</strong></th>
+<th align="center"><strong>Flying duration(t)</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1:12</td>
+<td align="center">0.115</td>
+<td align="center">0.021</td>
+<td align="center">29.666</td>
+<td align="center">5.044</td>
+</tr>
+<tr>
+<td align="center">2:12</td>
+<td align="center">0.209</td>
+<td align="center">0.042</td>
+<td align="center">35.305</td>
+<td align="center">5.578</td>
+</tr>
+<tr>
+<td align="center">3:12</td>
+<td align="center">0.304</td>
+<td align="center">0.063</td>
+<td align="center">37.702</td>
+<td align="center">5.884</td>
+</tr>
+<tr>
+<td align="center">4:12</td>
+<td align="center">0.399</td>
+<td align="center">0.083</td>
+<td align="center">38.737</td>
+<td align="center">6.282</td>
+</tr>
+<tr>
+<td align="center">5:12</td>
+<td align="center">0.494</td>
+<td align="center">0.104</td>
+<td align="center">38.794</td>
+<td align="center">6.413</td>
+</tr>
+<tr>
+<td align="center">6:12</td>
+<td align="center">0.588</td>
+<td align="center">0.125</td>
+<td align="center">40.322</td>
+<td align="center">6.434</td>
+</tr>
+<tr>
+<td align="center">7:12</td>
+<td align="center">0.683</td>
+<td align="center">0.146</td>
+<td align="center">36.123</td>
+<td align="center">6.331</td>
+</tr>
+<tr>
+<td align="center">8:12</td>
+<td align="center">0.778</td>
+<td align="center">0.167</td>
+<td align="center">2.633</td>
+<td align="center">5.463</td>
+</tr>
+<tr>
+<td align="center">9:12</td>
+<td align="center">0.872</td>
+<td align="center">0.188</td>
+<td align="center">3.1063</td>
+<td align="center">1.900</td>
+</tr>
+<tr>
+<td align="center">10:12</td>
+<td align="center">0.967</td>
+<td align="center">0.208</td>
+<td align="center">0.6222</td>
+<td align="center">1.026</td>
+</tr>
+<tr>
+<td align="center">11:12</td>
+<td align="center">1.062</td>
+<td align="center">0.229</td>
+<td align="center">0.0793</td>
+<td align="center">0.378</td>
+</tr>
+</tbody></table>
+<p><img src="/2022/03/25/water-rocket/Aspose.Words.1cab525a-54af-4a3c-9dbb-1087a506cd7f.008.png"></p>
+<p>(Figure 8: Graph of maximum altitude against the water to air ratio of the water rocket)</p>
+<p><img src="/2022/03/25/water-rocket/Aspose.Words.1cab525a-54af-4a3c-9dbb-1087a506cd7f.009.png"></p>
+<p>(Figure 9: Graph of flying duration against the water to air ratio of the water rocket)</p>
+<p>From Figure 8 and 9, the maximum altitude and the flying duration appear when the water to air ratio is 1: 1. As the ratio increase from 1: 12, the maximum altitude and the flying duration increase, but the rate of changing decreases until 6:12. After 6: 12, the value starts to decrease, and the rate of change increases. Finally, after 9: 12, the rate starts to decrease again.</p>
+<ol>
+<li><h2 id="The-experimental-analysis"><a href="#The-experimental-analysis" class="headerlink" title="The experimental analysis"></a><strong>The experimental analysis</strong></h2><ol>
+<li><h2 id="Materials"><a href="#Materials" class="headerlink" title="Materials"></a>Materials</h2>Table 4, the materials for the experiment</li>
+</ol>
+</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th align="left">Launcher</th>
+<th align="left">Base, Port, plank, hinge, tube, pressure gauge (±20 kPa), bicycle pump</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">Water rocket</td>
+<td align="left">Two Coke bottle (1 L), nozzle, four fins, tape, altimeter (±1 m), nose cone</td>
+</tr>
+<tr>
+<td align="left">Others</td>
+<td align="left">Ruler (±0.1 cm), vernier caliper (±0.001 cm), camera (±0.05 s), measuring cup (±25 mL), scissor, cooking scale (±0.01 g), water bucket</td>
+</tr>
+</tbody></table>
+<ol>
+<li><h2 id="Fabrication-of-the-water-rocket"><a href="#Fabrication-of-the-water-rocket" class="headerlink" title="Fabrication of the water rocket"></a>Fabrication of the water rocket</h2>Firstly, take two 1 L coke bottles. We use one of them as the main body of the water rocket, and another one is attached to the main body at the opposite side of the nozzle. 4 fins are attached to the main rocket body by the tape and the glue. Each fin is at a 90° angle to the other adjacent fins. The specially designed nozzle is on the opening side of the main body.</li>
+</ol>
+<p>As Figure 11, the rocket launcher is made of a rocket port, pressure gauge, hinge, and adapter to connect to the pump. To launching the rocket, first, fill the rocket body with water, then insert the nozzle into the rocket port. There is a buckle inside of the rocket port for launching the rocket at a certain pressure. Because in this essay, we only look at a perfectly vertical launch, so we adjust the hinge to 90 degrees. After that, pump the air into the rocket through the adapter and, as the pressure increased to a certain amount, release the buckle of the rocket so that the rocket will ascend by ejecting the water. </p>
+<ol>
+<li><h2 id="The-method-of-obtaining-parameters-collecting-data"><a href="#The-method-of-obtaining-parameters-collecting-data" class="headerlink" title="The method of obtaining parameters collecting data"></a>The method of obtaining parameters collecting data</h2>The atmosphere pressure (Pa) is obtained by the weather report on the day of the experiment.</li>
+</ol>
+<p>A pressure gauge is connected to the air cock, which is used to measure the internal air pressure of the water rocket, which shows the P0-Pa, therefore the initial air pressure P0 can be determinate by adding the number from the pressure gauge on the atmospheric pressure. </p>
+<p>Cross-sectional area (Sex) of the nozzle can be determent by the vernier clipper with great precision. (±0.001m).</p>
+<p>The length of the chamber (L) and water level (h0) exceeded the vernier clipper’s measuring range, so I used a long ruler (1m). </p>
+<p>The volume of the rocket chamber (V0) is obtained by fill up the bottle with water using a measuring cup. Then average cross-sectional area (S) is V0&#x2F;L.</p>
+<p>The mass of the whole water rocket (M) will measure by a cooking scale.</p>
+<p>The maximum altitude of the water rocket ejection can be measure by an altimeter. </p>
+<p>The flying duration can be determined by video recording of the flying process of the rocket and use video software to find the time between the rocket launched and the rocket landed.</p>
+<p>The shape of a water rocket is close to the long cylinder with an air resistance coefficient of 0.8 according to [7], but the nose cone makes it better than a long cylinder, so we can assume the resistance coefficient of a water rocket is about 0.7.</p>
+<p><img src="/2022/03/25/water-rocket/Aspose.Words.1cab525a-54af-4a3c-9dbb-1087a506cd7f.010.png"><img src="/2022/03/25/water-rocket/Aspose.Words.1cab525a-54af-4a3c-9dbb-1087a506cd7f.011.png"></p>
+<p>(Figure 10, method of measure water heigh)</p>
+<p>(Figure 11, launching the water rocket)</p>
+<p><img src="/2022/03/25/water-rocket/Aspose.Words.1cab525a-54af-4a3c-9dbb-1087a506cd7f.012.jpeg"><img src="/2022/03/25/water-rocket/Aspose.Words.1cab525a-54af-4a3c-9dbb-1087a506cd7f.013.jpeg"></p>
+<p>(Figure 13: data collected from the altimeter)                        (Figure 14, the setup of the experiment)</p>
+<ol>
+<li><h2 id="The-effect-of-air-pressure-on-water-rocket-projection"><a href="#The-effect-of-air-pressure-on-water-rocket-projection" class="headerlink" title="The effect of air pressure on water rocket projection"></a>The effect of air pressure on water rocket projection</h2>We change the air pressure to see the change in maximum altitude and the flying duration, so the pressure is the independent variable. The maximum altitude and flying duration are the dependent variables. In this experiment, I will fill the rocket with 350mL of water.</li>
+</ol>
+<p>Table 5: The initial parameters of water rocket for the experiment and simulation</p>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>Parameters</strong></th>
+<th align="center"><strong>Figure</strong></th>
+<th align="center"><strong>Unit</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Atmospheric pressure (Pa)</td>
+<td align="center">102120 (±20000)</td>
+<td align="center">Pa</td>
+</tr>
+<tr>
+<td align="center">Mass of the water rocket with water (M)</td>
+<td align="center">0.5015 (±0.0001)</td>
+<td align="center">kg</td>
+</tr>
+<tr>
+<td align="center">Total length of water rocket (L)</td>
+<td align="center">0.252 (±0.01)</td>
+<td align="center">m</td>
+</tr>
+<tr>
+<td align="center"><p>Initial height of</p><p>water level (h0)</p></td>
+<td align="center">0.0892 (± 0.01)</td>
+<td align="center">m</td>
+</tr>
+<tr>
+<td align="center">Area of nozzle (Sex)</td>
+<td align="center">7.57*10^-5 (±1.5*10^-7)</td>
+<td align="center">m2</td>
+</tr>
+<tr>
+<td align="center">Average cross-section area of water rocket (S)</td>
+<td align="center">0.00452 (±0.001)</td>
+<td align="center">m2</td>
+</tr>
+<tr>
+<td align="center">Density of water (ρ)</td>
+<td align="center">997</td>
+<td align="center">kg&#x2F;m3</td>
+</tr>
+<tr>
+<td align="center">Density of air (ρ)</td>
+<td align="center">1.4</td>
+<td align="center">kg&#x2F;m3</td>
+</tr>
+<tr>
+<td align="center">Air resistance coefficient (C)</td>
+<td align="center"><p>0.7</p><p></p></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">Gravitational acceleration (g)</td>
+<td align="center">9.8</td>
+<td align="center">ms-2</td>
+</tr>
+<tr>
+<td align="center">Thermodynamic constant (k)</td>
+<td align="center">1.4</td>
+<td align="center">-</td>
+</tr>
+</tbody></table>
+<ol>
+<li><h2 id="The-data-of-altitude-and-distance"><a href="#The-data-of-altitude-and-distance" class="headerlink" title="The data of altitude and distance\"></a>The data of altitude and distance\</h2></li>
+</ol>
+<p>Table 6: data of maximum fly altitude and duration in different pressure</p>
+<table>
+<thead>
+<tr>
+<th align="left">Pressure (kPa) (±25)</th>
+<th align="left">Maximum altitude (m) (±1)</th>
+<th align="left">Flying duration (s) (±0.01)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">200</td>
+<td align="left">0</td>
+<td align="left">0</td>
+</tr>
+<tr>
+<td align="left">300</td>
+<td align="left">13</td>
+<td align="left">3.08</td>
+</tr>
+<tr>
+<td align="left">400</td>
+<td align="left">14</td>
+<td align="left">3.94</td>
+</tr>
+<tr>
+<td align="left">500</td>
+<td align="left">16</td>
+<td align="left">4.12</td>
+</tr>
+<tr>
+<td align="left">600</td>
+<td align="left">18</td>
+<td align="left">4.14</td>
+</tr>
+<tr>
+<td align="left">700</td>
+<td align="left">19</td>
+<td align="left">4.21</td>
+</tr>
+</tbody></table>
+<ol>
+<li><h2 id="Analysis-of-the-data"><a href="#Analysis-of-the-data" class="headerlink" title="Analysis of the data"></a>Analysis of the data</h2><img src="/2022/03/25/water-rocket/Aspose.Words.1cab525a-54af-4a3c-9dbb-1087a506cd7f.007.png"></li>
+</ol>
+<p>(Figure 14: graph of maximum altitude reached by rocket against pressure, plotted both the graphs of simulation and experiment in the parameters list in table 5)</p>
+<p><img src="/2022/03/25/water-rocket/Aspose.Words.1cab525a-54af-4a3c-9dbb-1087a506cd7f.007.png"></p>
+<p>(Figure 15: graph of the flying duration of the rocket against pressure, plotted both the graphs of simulation and experiment in the parameters list in table 5)</p>
+<p>We can see that the graphs of experimental results preserve the same shape as that of the simulation. However, the experimental results deviate from the simulation as the pressure increases. This deviation was the result of different initial parameters. Nevertheless, we can conclude from both experiment and simulation that the maximum altitude reached by the rocket increases as the pressure increases and the flying of the rocket increases as the pressure difference increases. </p>
+<ol>
+<li><h2 id="The-effect-of-water-to-air-ratio-on-water-rocket-projection"><a href="#The-effect-of-water-to-air-ratio-on-water-rocket-projection" class="headerlink" title="The effect of water to air ratio on water rocket projection"></a>The effect of water to air ratio on water rocket projection</h2><ol>
+<li><h2 id="The-data-of-maximum-and-flying-duration"><a href="#The-data-of-maximum-and-flying-duration" class="headerlink" title="The data of maximum and flying duration"></a>The data of maximum and flying duration</h2>In this experiment, we are changing the water to air ratio and looking at how it affects the maximum altitude and flying duration. We set the pressure at 400 kPa ± 20, and the independent variable is the amount of water, and the dependent variables are maximum and flying duration.</li>
+</ol>
+</li>
+</ol>
+<p>Table 7: The initial parameters of the water rocket for the experiment and simulation</p>
+<table>
+<thead>
+<tr>
+<th align="left">Volume of water (mL) (± 25mL)</th>
+<th align="left">Water to air ratio (±0.001)</th>
+<th align="left">Water level (cm) (±1m)</th>
+<th align="left">Maximum altitude (±1m)</th>
+<th align="left">Flying duration (±0.1m)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">100</td>
+<td align="left">0.086</td>
+<td align="left">4.62</td>
+<td align="left">11</td>
+<td align="left">2.96</td>
+</tr>
+<tr>
+<td align="left">200</td>
+<td align="left">0.173</td>
+<td align="left">6.57</td>
+<td align="left">12</td>
+<td align="left">3.03</td>
+</tr>
+<tr>
+<td align="left">300</td>
+<td align="left">0.260</td>
+<td align="left">7.90</td>
+<td align="left">13</td>
+<td align="left">3.12</td>
+</tr>
+<tr>
+<td align="left">400</td>
+<td align="left">0.347</td>
+<td align="left">9.94</td>
+<td align="left">13</td>
+<td align="left">3</td>
+</tr>
+<tr>
+<td align="left">500</td>
+<td align="left">0.434</td>
+<td align="left">11.85</td>
+<td align="left">14</td>
+<td align="left">2.98</td>
+</tr>
+<tr>
+<td align="left">600</td>
+<td align="left">0.521</td>
+<td align="left">14.1</td>
+<td align="left">10</td>
+<td align="left">2.99</td>
+</tr>
+<tr>
+<td align="left">700</td>
+<td align="left">0.608</td>
+<td align="left">16.41</td>
+<td align="left">8</td>
+<td align="left">2.78</td>
+</tr>
+<tr>
+<td align="left">800</td>
+<td align="left">0.695</td>
+<td align="left">17.96</td>
+<td align="left">4</td>
+<td align="left">1.93</td>
+</tr>
+<tr>
+<td align="left">900</td>
+<td align="left">0.782</td>
+<td align="left">19.76</td>
+<td align="left">0</td>
+<td align="left">1.15</td>
+</tr>
+<tr>
+<td align="left">1000</td>
+<td align="left">0.869</td>
+<td align="left">21.58</td>
+<td align="left">0</td>
+<td align="left">0.23</td>
+</tr>
+</tbody></table>
+<ol>
+<li><h2 id="Analysis-of-the-data-1"><a href="#Analysis-of-the-data-1" class="headerlink" title="Analysis of the data"></a>Analysis of the data</h2><img src="/2022/03/25/water-rocket/Aspose.Words.1cab525a-54af-4a3c-9dbb-1087a506cd7f.007.png"></li>
+</ol>
+<p>(Figure 16: graph of maximum altitude reached by rocket against the air to water ratio plotted both the graphs of simulation and experiment in the parameter list in table 5and 6)</p>
+<p>Figure 16 shows that the experimental results and simulation results again have a very similar pattern. The maximum altitude reached by the rocket in the experimental result is the greatest (14m ±1m) when the air to water ratio is 0.434 ± 0.02. While in the theoretical, the maximum altitude reached by the rocket in the experimental result is the greatest (26.46 ±1m) when the air to water ratio is 0.173 ± 0.02.</p>
+<p><img src="/2022/03/25/water-rocket/Aspose.Words.1cab525a-54af-4a3c-9dbb-1087a506cd7f.007.png"></p>
+<p>(Figure 17: graph of maximum duration reached by rocket against the air to water ratio, plotted both the graphs of simulation and experiment in the parameter list in table 5 and 6)</p>
+<p>From figure 17, we can observe that the flying duration (3.12 ±0.01s) for experimental results occurs when the air to water ratio is 0.26. The maximum flying duration (4.79s ±0.01s) for simulation results occurs when the air to water ratio is 0.173 ± 0.02. The difference is due to different initial parameters. From these two graphs, we can conclude that to reach the greatest flying time and altitude, the air to water ratio should be between 0.26-0.434 (±0.02).</p>
+<ol>
+<li><h2 id="Conclusion-and-Evaluation"><a href="#Conclusion-and-Evaluation" class="headerlink" title="Conclusion and Evaluation"></a><strong>Conclusion and Evaluation</strong></h2><ol>
+<li><h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2>Overall, through both simulation and experimental results, we have arrived at the following two answers to our initial research question: <em><strong>“How does the initial pumped air pressure, air to water ratio affect the motion of the water rocket?”</strong></em></li>
+</ol>
+</li>
+</ol>
+<p>1)The higher the initial pumped air pressure, the longer, the higher the water rocket flies. The relationship is weakened as pressure increases.</p>
+<p>2)The optimal air to water ratio that allows the highest and longest flight of the water rocket is between 0.26-0.434 (±0.02).</p>
+<p>The experimental data shows a similar trend with simulation, although there is some deviation, which demonstrates the validity of the simulation. The possible reason for the deviation will be explained in the Evolution part. For replicating this experiment, the choice of air to water ratio in the range of 0.26-0.434 (±0.02) should be at the discrete value of the experimental parameter. Therefore, the experimenter should try different ratios between 0.26- 0.434 (±0.02) in this range to see, which is the most optimal.</p>
+<ol>
+<li><h2 id="Evaluation"><a href="#Evaluation" class="headerlink" title="Evaluation"></a>Evaluation</h2><ol>
+<li><h2 id="Systematic-errors"><a href="#Systematic-errors" class="headerlink" title="Systematic errors"></a>Systematic errors</h2></li>
+</ol>
+</li>
+<li><p>The friction between the launcher and nozzle was not qualitative detected at the experiment to have resulted in the inaccuracy of the final results. </p>
+</li>
+<li><p>Water rocket rotates while flying, losing energy, which might have caused the frictional force experienced by the water rocket to vary along with the flight duration, which might have affected the rocket’s upward motion. </p>
+</li>
+<li><p>Not perfectly vertical ejection, the horizontal displacement occurs, especially when the pressure is high, which might be the main issue that caused the results to deviate from the simulation. I usually walk 10-20 steps from the launcher for picking up the water rocket after launching in the experiments that involve air pressure over 300kPa. That could explain the experimental data deviate from the simulation more and more as the pressure increase. </p>
+</li>
+<li><p>The unjustified approximation of the coefficient of air resistance could also create errors. Significantly, the errors increase as the pressure increase because the air resistance is proportional to the square of velocity.</p>
+</li>
+<li><p>Assumptions of ideal gas, steady flow and perfect cylinder were not valid in every situation, resulting in some experiment errors. The assumption of a perfect cylinder deviates the most, which the bottom of the water rocket is not a cylinder at all; instead, it is a hemispheroid about 400mL, but as the water-air ratio increases, it becomes closer and closer to the assumption. That explains the experimental data deviate from the calculation as the water-air ratio is low, and the deviation gets smaller and smaller as the ratio increase. </p>
+</li>
+<li><p>According to the altimeter’s instruction, the altimeter detects the altitude based on an atmospheric air pressure sencer that I do not know what the principle is. Therefore, the reliability of the data obtained by the instrument is doubted. </p>
+</li>
+<li><p>The uncertainty of measurement and human reading errors could let the actual parameters of the water rocket different from the simulation, which cause the discrepancy of the data.</p>
+</li>
+<li><h2 id="Improvements"><a href="#Improvements" class="headerlink" title="Improvements"></a>Improvements</h2><p>This experiment could have been improved if the rocket is specifically designed and not with coke bottles. Advanced technology such as a 3D printer could produce a perfect rocket body and lower the barycenter (preventing rotation) to minimize the error. Also, improving the equations, which include more real-world parameters, could be considered and measured for developing the model, as many assumptions made in this model omitted a fair number of parameter values. Moreover, the coefficient of air resistance needs to be experimentally justified, as it will provide a more accurate parameter to put into the simulation and provide a better prediction for reality. Finally, a better method of determinate the altitude of a water rocket is needed. </p>
+</li>
+<li><h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><p>[1] Finney, G. A. (2000). Analysis of a water-propelled rocket: A problem in honors physics. <em>American Journal of Physics,</em> <em>68</em>(3), 223-227. doi:10.1119&#x2F;1.19415</p>
+</li>
+</ol>
+<p>[2] Kagan, D., Buchholtz, L., &amp; Klein, L. (1995). Soda‐bottle water rockets. <em>The Physics Teacher,</em> <em>33</em>(3), 150-157. doi:10.1119&#x2F;1.2344175</p>
+<p>[3] Liao, L., Yang, X., &amp; Grade, T. (2016). THEORETICAL INVESTIGATION OF THE LAUNCH INITIAL VELOCITY AND THE LAUNCH DISTANCE FOR THE WATER ROCKET. <em>Physics and Engineering</em>.</p>
+<p>[4] Water Rocket Physics. (n.d.). Retrieved November 13, 2020, from <a target="_blank" rel="noopener" href="https://www.real-world-physics-problems.com/water-rocket-physics.html">https://www.real-world-physics-problems.com/water-rocket-physics.html</a></p>
+<p>[5] 冯, 冠. (2018). 水火箭的理论探讨. <em>《新课程》2018年 第6期</em>.</p>
+<p>[6] 王超, 金盈, 谢妙, &amp; 陈英. (2017). 水火箭运动的理论研究. <em>《物理通报》2017年 第6期</em>.</p>
+<p>[7] Steven De Groote. (2009). Aerodynamics in racing. Retrieved February 26, 2021, from <a target="_blank" rel="noopener" href="https://www.f1technical.net/articles/10">https://www.f1technical.net/articles/10</a></p>
+<p>[8] AltimeterTwo. (n.d.). Retrieved February 26, 2021, from <a target="_blank" rel="noopener" href="https://jollylogic.com/products/altimetertwo/">https://jollylogic.com/products/altimetertwo/</a><br>2</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="http://example.com">Jiajun</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="http://example.com/2022/03/25/water-rocket/">http://example.com/2022/03/25/water-rocket/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Physis/">Physis</a></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/gh/overtrue/share.js@master/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2022/03/24/about/"><img class="next-cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">about</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> Comment</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Jiajun</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">4</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Catalog</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Contents"><span class="toc-number">1.</span> <span class="toc-text">Contents</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Introduction"><span class="toc-number">1.1.</span> <span class="toc-text">Introduction</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#The-mathematical-analysis-and-theoretical-modeling-of-the-water-rocket"><span class="toc-number">1.2.</span> <span class="toc-text">The mathematical analysis and theoretical modeling of the water rocket</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#The-velocity-of-ejected-water"><span class="toc-number">1.3.</span> <span class="toc-text">The velocity of ejected water</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#The-motion-parameter-of-water-rocket-during-exhaust-phase"><span class="toc-number">1.4.</span> <span class="toc-text">The motion parameter of water rocket during exhaust phase</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#The-motion-parameter-of-water-rocket-during-exhaust-phase-1"><span class="toc-number">1.5.</span> <span class="toc-text">The motion parameter of water rocket during exhaust phase</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Simulations"><span class="toc-number">1.6.</span> <span class="toc-text">Simulations</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Relationship-between-initial-pressure-and-maximum-altitude-and-duration"><span class="toc-number">1.7.</span> <span class="toc-text"> Relationship between initial pressure and maximum altitude and duration</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#relationship-between-initial-air-to-water-ratio-and-maximum-altitude-and-flying-duration"><span class="toc-number">1.8.</span> <span class="toc-text">relationship between initial air to water ratio and maximum altitude and flying duration</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#The-experimental-analysis"><span class="toc-number">1.9.</span> <span class="toc-text">The experimental analysis</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Materials"><span class="toc-number">1.10.</span> <span class="toc-text">Materials</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Fabrication-of-the-water-rocket"><span class="toc-number">1.11.</span> <span class="toc-text">Fabrication of the water rocket</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#The-method-of-obtaining-parameters-collecting-data"><span class="toc-number">1.12.</span> <span class="toc-text">The method of obtaining parameters collecting data</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#The-effect-of-air-pressure-on-water-rocket-projection"><span class="toc-number">1.13.</span> <span class="toc-text">The effect of air pressure on water rocket projection</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#The-data-of-altitude-and-distance"><span class="toc-number">1.14.</span> <span class="toc-text">The data of altitude and distance\</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Analysis-of-the-data"><span class="toc-number">1.15.</span> <span class="toc-text">Analysis of the data</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#The-effect-of-water-to-air-ratio-on-water-rocket-projection"><span class="toc-number">1.16.</span> <span class="toc-text">The effect of water to air ratio on water rocket projection</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#The-data-of-maximum-and-flying-duration"><span class="toc-number">1.17.</span> <span class="toc-text">The data of maximum and flying duration</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Analysis-of-the-data-1"><span class="toc-number">1.18.</span> <span class="toc-text">Analysis of the data</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Conclusion-and-Evaluation"><span class="toc-number">1.19.</span> <span class="toc-text">Conclusion and Evaluation</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Conclusion"><span class="toc-number">1.20.</span> <span class="toc-text">Conclusion</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Evaluation"><span class="toc-number">1.21.</span> <span class="toc-text">Evaluation</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Systematic-errors"><span class="toc-number">1.22.</span> <span class="toc-text">Systematic errors</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Improvements"><span class="toc-number">1.23.</span> <span class="toc-text">Improvements</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#References"><span class="toc-number">1.24.</span> <span class="toc-text">References</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/03/25/water-rocket/" title="Water rocket kinetics analysis"><img src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Water rocket kinetics analysis"/></a><div class="content"><a class="title" href="/2022/03/25/water-rocket/" title="Water rocket kinetics analysis">Water rocket kinetics analysis</a><time datetime="2022-03-25T20:03:45.000Z" title="Created 2022-03-25 13:03:45">2022-03-25</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/03/24/about/" title="about"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="about"/></a><div class="content"><a class="title" href="/2022/03/24/about/" title="about">about</a><time datetime="2022-03-25T06:48:21.000Z" title="Created 2022-03-24 23:48:21">2022-03-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/03/24/hello-world/" title="Hello World"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"/></a><div class="content"><a class="title" href="/2022/03/24/hello-world/" title="Hello World">Hello World</a><time datetime="2022-03-25T03:08:38.025Z" title="Created 2022-03-24 20:08:38">2022-03-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/03/24/CSS/" title="CSS"><img src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="CSS"/></a><div class="content"><a class="title" href="/2022/03/24/CSS/" title="CSS">CSS</a><time datetime="2022-03-24T17:29:50.000Z" title="Created 2022-03-24 10:29:50">2022-03-24</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By Jiajun</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Hi, welcome to my blog!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="Scroll To Comments"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/pangu@4/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><div class="js-pjax"><script>(()=>{
+  const init = () => {
+    twikoo.init(Object.assign({
+      el: '#twikoo-wrap',
+      envId: '',
+      region: '',
+      onCommentLoaded: function () {
+        btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      }
+    }, null))
+  }
+
+  const getCount = () => {
+    twikoo.getCommentsCount({
+      envId: '',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(function (res) {
+      document.getElementById('twikoo-count').innerText = res[0].count
+    }).catch(function (err) {
+      console.error(err);
+    });
+  }
+
+  const runFn = () => {
+    init()
+    
+  }
+
+  const loadTwikoo = () => {
+    if (typeof twikoo === 'object') {
+      setTimeout(runFn,0)
+      return
+    } 
+    getScript('https://cdn.jsdelivr.net/npm/twikoo@1/dist/twikoo.all.min.js').then(runFn)
+  }
+
+  if ('Twikoo' === 'Twikoo' || !true) {
+    if (true) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo()
+  } else {
+    window.loadOtherComment = () => {
+      loadTwikoo()
+    }
+  }
+})()</script></div><div class="aplayer no-destroy" data-id="60198" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div><script defer src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/hexo-theme-volantis@latest/source/js/issues.min.js"></script><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-nest.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer@1/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><!-- hexo injector body_end start --><script data-pjax src="https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.js"></script><script data-pjax>
+  function gitcalendar_injector_config(){
+      var parent_div_git = document.getElementById('recent-posts');
+      var item_html = '<div class="recent-post-item" style="width:100%;height:auto;padding:10px;"><style>#git_container{min-height: 280px}@media screen and (max-width:650px) {#git_container{min-height: 0px}}</style><div id="git_loading" style="width:10%;height:100%;margin:0 auto;display: block;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50" xml:space="preserve"><path fill="#d0d0d0" d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z" transform="rotate(275.098 25 25)"><animatetransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="0.6s" repeatCount="indefinite"></animatetransform></path></svg><style>#git_container{display: none;}</style></div><div id="git_container"></div></div>';
+      parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+      console.log('已挂载gitcalendar')
+      }
+
+    if( document.getElementById('recent-posts') && (location.pathname ==='/'|| '/' ==='all')){
+        gitcalendar_injector_config()
+        GitCalendarInit("https://gitcalendar.akilar.top/api?Jiajun-Huang",['#e4dfd7', '#f9f4dc', '#f7e8aa', '#f7e8aa', '#f8df72', '#fcd217', '#fcc515', '#f28e16', '#fb8b05', '#d85916', '#f43e06'],'Jiajun-Huang')
+    }
+  </script><!-- hexo injector body_end end --></body></html>
