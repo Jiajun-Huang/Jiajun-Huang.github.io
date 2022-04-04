@@ -1,0 +1,85 @@
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 id="title">The survey form</h1>
+    <p id="description">Having fun</p>
+
+    <form action="post" id="survey-form">
+      <div>
+        <p class="form-title">Name</p>
+        <label for="name" id="name-label"></label><input type="text" id="name" placeholder="Enter your name" name="name">
+      </div>
+      <div>
+        <p class="form-title">E-mail</p>
+        <label for="email" id="email-label"></label><input type="email" id="email" name="email" value placeholder="Enter your email here please">
+      </div>
+      <div>
+        <p class="form-title">Age</p>
+        <label for id="number-label"></label><input type="number" id="number" name="age" min="1" max="100" placeholder="Enter your age here please">
+      </div>
+      <p class="form-title">Your country</p>
+      <div>
+        <select name id="dropdown" pl>
+          <option disabled>Select your country:</option>
+          <optgroup label="Asia">
+            <option value="China">China</option>
+            <option value="Japan">Japan</option>
+            <option value="America">America</option>
+          </optgroup>
+          <optgroup label="North America">
+            <option value="Canada">Canada</option>
+            <option value="America">America</option>
+          </optgroup>
+        </select>
+      </div>
+
+      <div class="radio-group">
+        <p class="form-title">Do you like coding?</p>
+        <label for="radio1" class="radio-label">
+          <input type="radio" id="radio1" name="radio" class="radio-element">
+          Defiantly yes</label>
+        <label for="radio2" class="radio-label">
+          <input type="radio" id="radio2" name="radio" class="radio-element">
+          Yes</label>
+        <label for="radio3" class="radio-label">
+          <input type="radio" id="radio3" name="radio" class="radio-element">
+          Maybe</label>
+        <label for="radio4" class="radio-label">
+          <input type="radio" id="radio4" name="radio" class="radio-element">
+          No</label>
+        <label for="radio5" class="radio-label">
+          <input type="radio" id="radio5" name="radio" class="radio-element">
+          Defiantly no</label>
+      </div>
+
+      <div>
+        <p class="form-title">What programing language do you know</p>
+        <label for="checkbox1" class="checkbox-label">
+          <input type="checkbox" id="checkbox1" name="checkbox" class="checkbox-element">Python</label>
+        <label for="checkbox2" class="checkbox-label">
+          <input type="checkbox" id="checkbox2" name="checkbox" class="checkbox-element">Java</label>
+        <label for="checkbox3" class="checkbox-label">
+          <input type="checkbox" id="checkbox3" name="checkbox" class="checkbox-element">C++</label>
+        <label for="checkbox4" class="checkbox-label">
+          <input type="checkbox" id="checkbox4" name="checkbox" class="checkbox-element">C#</label>
+        <label for="checkbox5" class="checkbox-label">
+          <input type="checkbox" id="checkbox5" name="checkbox" class="checkbox-element">Javascript</label>
+      </div>
+      <div>
+        <label for="comment" class="form-title">Comment</label>
+        <textarea name="comment" id="comment" cols="30" rows="10" style="resize: vertical"></textarea>
+      </div>
+      <div>
+        <label for></label><input type="submit" id="submit" class="btn">
+      </div>
+    </form>
+  </body>
+</html>
